@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    height: 90px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color:aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: yellow;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.scene-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.scene-content {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 10px;
+    margin-left: 80px;
+}
+
+.card{
+    width: 70%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 50px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.banner-1 {
+    background-image: url('https://i.ytimg.com/vi/Zq4zTcIM0yQ/maxresdefault.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/0*PMScdcOtLVkCNf3g.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://www.ginx.tv/imgcdn/sqgpIlJJdUcSQnFe4WSlsg1vAW9jt7aUIvckPCv0NV8/rs:fill:1280:0:1/g:ce/aHR0cHM6Ly93d3cuZ2lueC50di91cGxvYWRzMi9OZXRmbGl4L2N5YmVycHVua19lZGdlcnVubmVycy9DeWJlcnB1bmtFZGdlcnVubmVyc0x1Y3lEYXZpZEJyYWluZGFuY2VTdHVkaW9UcmlnZ2VyLmpwZw');
+}
+
+.banner-4 {
+    background-image: url('https://img.anime2you.de/2022/09/cyberpunk-anime.jpg');
+}
+
+.banner-5 {
+    background-image: url('https://i.ytimg.com/vi/1_-IMuD4mc0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDAEG6bC1L_nuRWON0T6TYm20Rl1w');
+}
+
+.banner-6 {
+    background-image: url('https://animes.olanerd.com/wp-content/uploads/2022/09/1662120219_Edgerunners-serao-mais-atrevidos-e-sangrentos-que-o-jogo.jpg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
